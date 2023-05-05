@@ -1,0 +1,138 @@
+.bg-blog {
+  background-image: linear-gradient(180deg, #002f63, #4d89cd);
+  margin-top: 3rem;
+}
+.img-blog {
+  max-width: 100%;
+  height: auto;
+}
+.span-blog,
+.a-blog,
+.a-blog:hover {
+  display: inline-block;
+  text-decoration: none;
+
+  color: #fff;
+}
+.wow {
+  margin-top: 1rem;
+}
+.news-section {
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+
+.news-content {
+  padding: 40px 30px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.25);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.8px);
+  -webkit-backdrop-filter: blur(7.8px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.news-item {
+  /* box-shadow: 0 0 15px #ededed; */
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.news-item:hover {
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
+  /* -webkit-box-shadow: 0px 15px 15px 0px #edeaea;
+  box-shadow: 0px 15px 15px 0px #edeaea; */
+}
+
+.newsimg img {
+  width: 100%;
+}
+
+.news_postdate {
+  color: #ff3a46;
+}
+
+.news-content h3 {
+  color: #ffffff;
+  font-size: 22px;
+  /* margin-bottom: 25px; */
+}
+
+.news_authorinfo {
+  border: transparent;
+  padding: 14px 0px 0px 0px;
+  background: transparent;
+  font-size: 14px;
+}
+
+.news_authorinfo i {
+  margin-right: 6px;
+}
+
+.news_authorinfo span:last-child {
+  float: right;
+}
+
+.news_authorinfo a {
+  color: #ffffff;
+}
+
+.center .news-content {
+  background: linear-gradient(-120deg, #8758ff 0, #614ef9 100%);
+}
+
+.center .news-content h3,
+.center .news-content p {
+  color: #fff;
+}
+
+.center .news_authorinfo a,
+.center .news_authorinfo i {
+  color: #fff;
+}
+
+.news-slide.owl-carousel .col-lg-4 {
+  max-width: 100%;
+  padding: 0;
+}
+
+.news-section .owl-theme .owl-nav [class*="owl-"] {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #fff;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+
+.small-title {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #ffffff;
+
+  margin-top: 0px;
+  font-weight: 600;
+}
+.big-title {
+  letter-spacing: 0px;
+
+  position: relative;
+  color: #ffffff;
+  line-height: 50px;
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.main-title-box {
+}
+
+.p-blog {
+  color: #fff;
+}

@@ -1,0 +1,42 @@
+.banner-bg {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("https://learnenglish.britishcouncil.org/sites/podcasts/files/styles/1280x500/public/RS8118_GettyImages-935659716-hig.jpeg?itok=WzCouPgo");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.portfolio-heading {
+  text-align: center;
+  padding-top: 10rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-portfolio {
+  margin-top: 2rem;
+  width: 14rem;
+  height: 3.5rem;
+  background-color: transparent;
+  color: white;
+  border: 3px solid transparent;
+  border-image: linear-gradient(280deg, #002f63, #0a57ae);
+  border-image-slice: 1;
+  transition: 0.9s ease-in-out;
+  border-radius: 10px; /* will have no effect */
+}
+.btn-portfolio:hover {
+  width: 14rem;
+  height: 3.5rem;
+  background-color: transparent;
+  color: white;
+
+  background-image: linear-gradient(280deg, #002f63, #0a57ae);
+}

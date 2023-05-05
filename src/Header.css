@@ -1,0 +1,11 @@
+.nav-bg {
+  background-image: linear-gradient(to right, #002f63, #3669a2e9);
+  /* background-color: #002f63; */
+}
+.navLink {
+  cursor: pointer;
+}
+
+.navLink:hover {
+  border-bottom: #002f63 4px solid;
+}

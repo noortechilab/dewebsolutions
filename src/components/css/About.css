@@ -1,0 +1,45 @@
+.about-us .single-about-content {
+  text-align: center;
+  margin-top: 55px;
+}
+.about-us {
+  text-align: center;
+  margin-top: 4rem;
+}
+.about-us .icon {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  line-height: 130px;
+  border-width: 2px;
+  font-size: 36px;
+  color: #002f63;
+  border: 3px solid #002f63;
+  border-radius: 100px;
+}
+.about-us h5 a {
+  color: #292929;
+  margin: 35px 0 20px 0;
+  text-decoration: none;
+}
+.about-us h5 a:hover {
+  color: #002f63;
+  margin: 35px 0 20px 0;
+  text-decoration: none;
+}
+.about-us .single-about-content a.more {
+  line-height: 45px;
+  color: #292929;
+  border-width: 1px;
+  margin-top: 22px;
+  text-decoration: none;
+  border: 3px solid #002f63;
+}
+.about-us .single-about-content a.more:hover,
+.about-us .single-about-content:hover .icon {
+  background-image: linear-gradient(280deg, #002f63, #0a57ae);
+  color: aliceblue;
+}
+.span-bizro {
+  color: #002f63;
+}
